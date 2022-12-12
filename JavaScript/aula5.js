@@ -1,19 +1,4 @@
 
-
-/*const valorEtiqueta = 100;
-const modoPagamento = 4;
-
-
-} else if (modoPagamento === 2) {
-    console.log(valorEtiqueta - (valorEtiqueta * (15/100)));
-} else if (modoPagamento === 3) {
-    console.log(valorEtiqueta);
-} else {
-    console.log(valorEtiqueta + (valorEtiqueta * (10/100)));
-}
-*/
-
-
 function aplicarDescontos(valorEtiqueta, valorDesconto) {
     console.log(valorEtiqueta - (valorEtiqueta * (valorDesconto / 100)));
 }
